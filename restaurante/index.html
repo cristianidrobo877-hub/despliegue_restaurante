@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante Gourmet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Restaurante Gourmet</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#reservas">Reservas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h2>Bienvenido a la mejor experiencia gastronómica</h2>
+    <p>Sabores únicos, ingredientes frescos y ambiente acogedor.</p>
+    <button onclick="mostrarMensaje()">Haz tu reserva</button>
+  </section>
+
+  <section id="menu">
+    <h2>Menú Destacado</h2>
+    <div class="platos">
+      <div class="plato">
+        <h3>Pasta Alfredo</h3>
+        <p>Cremosa y deliciosa, hecha con ingredientes frescos.</p>
+      </div>
+      <div class="plato">
+        <h3>Pizza Napolitana</h3>
+        <p>Horneada en leña, con tomate fresco y albahaca.</p>
+      </div>
+      <div class="plato">
+        <h3>Sushi Especial</h3>
+        <p>Selección de rolls con pescado fresco y aguacate.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="reservas">
+    <h2>Reserva tu Mesa</h2>
+    <form id="formReserva">
+      <input type="text" id="nombre" placeholder="Tu nombre" required>
+      <input type="number" id="personas" placeholder="Número de personas" required>
+      <input type="date" id="fecha" required>
+      <button type="submit">Reservar</button>
+    </form>
+  </section>
+
+  <footer id="contacto">
+    <p>📍 Calle Gourmet #123, Ciudad</p>
+    <p>📞 +57 300 000 0000</p>
+    <p>© 2025 Restaurante Gourmet</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
